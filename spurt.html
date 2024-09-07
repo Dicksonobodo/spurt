@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Spurt Group</title>
+    <link rel="stylesheet" href="spurt.css">
+</head>
+
+<body>
+    <div class="form">
+        <div class="login-container">
+            <h1>Log in</h1>
+            <h3>Welcome back!</h3>
+            <form id="login-form">
+                <div class="input-group">
+                    <select id="account-type" name="account-type">
+                        <option value="" disabled selected>Select your account type</option>
+                        <option value="admin">Admin</option>
+                        <option value="client">Client</option>
+                        <option value="consultant">Consultant</option>
+                    </select>
+                </div>
+                <div class="input-group">
+                    <input type="text" id="password" name="password" required placeholder="Password">
+                </div>
+                <div class="input-group">
+                    <input type="text" id="email" name="email" required placeholder="E-mail">
+                </div>
+                <div class="loginbtn">
+                    <button type="submit">Login</button>
+                </div>
+            </form>
+            <a href="#">Forgot your password?</a>
+            <p>Don't have an account? <a href="#">Create an account</a></p>
+            <p class="terms"><a href="#">Terms</a></p>
+        </div>
+        <div class="image-container">
+            <div class="image"><img src="./women.png" alt=""> </div>
+            <div class="logo">
+                <img src="./logo-core.png" alt="">
+            </div>
+            <div class="text">
+                <span class="fp">100%</span><br>
+                <span class="sp">of spurt! supported <br> business experience <br> growth</span>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

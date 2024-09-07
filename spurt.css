@@ -1,0 +1,149 @@
+
+body {
+    padding: 0;
+    margin: 0;
+    overflow: hidden
+}
+.form{
+    display: flex;
+    justify-content: space-between;
+
+}
+.login-container {
+    width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* width: 350px; */
+    text-align: center;
+    /* outline: none; */
+    /* margin-left: 100px; */
+}
+.login-container, input:focus {
+    outline: none;
+}
+
+h1 {
+    margin-right: 260px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    font-size: 35px;
+}
+h3 {
+    margin-right: 240px; 
+    /* margin-bottom: 50px;  */
+}
+
+.input-group {
+    margin-bottom: 15px;
+    /* text-align: left; */
+}
+
+input {
+    background-color: lightgray;
+    font-size: larger;
+    width: 340px;
+    padding: 17px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+}
+select {
+    background-color: lightgray;
+    font-size: larger;
+    width: 375px;
+    padding: 17px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+}
+
+button {
+    width: 375px;
+    padding: 15px;
+    background-color: green;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 40px;
+    transition-duration: 0.5s;
+    transition-property: width;
+    transition-timing-function: ease;
+}
+
+button:hover {
+    background-color: rgb(10, 62, 10);
+}
+
+a {
+    color: green;
+    text-decoration: none
+}
+
+a:hover {
+    text-decoration: underline;
+}
+p {
+    margin-top: 30px;
+}
+input:hover, select:hover {
+    border-color: green;
+    background-color: white;
+}
+.terms {
+    margin-top: 100px;
+}
+.loginbtn:hover {
+    transition-delay: 2s;
+     transition-duration: 3s;
+    transition-property: 5px 5px;
+    transition-timing-function: linear;
+}
+
+.image-container {
+    position: relative;
+    /* position: absolute; */
+    /* height: 773px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px; */
+    /* background-color: rgb(13, 237, 13);  */
+} 
+.logo {
+    background-color: #fff;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 45%;
+    border-bottom-right-radius: 45%;
+    /* position: relative; */
+    /* bottom: 300px; */
+    /* z-index: 1; */
+}
+.image{
+    background-color: green;
+}
+.text{
+    position: absolute;
+    bottom: 180px;
+    left: 170px;
+    color: white;
+}
+.text .fp{
+    font-weight: bolder;
+    font-size: 100px;
+}
+.text .sp{
+    font-size: 30px;
+    letter-spacing: 4px;
+}
+ @media only screen and (max-width: 600px) {
+    .image {
+      display: none;
+    }
+    .login-container {
+        
+    }
+  }
